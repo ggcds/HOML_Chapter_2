@@ -1,25 +1,33 @@
-📘 Projeto: Hands-On Machine Learning - Capítulo 3  
-Repositório com a implementação prática do Capítulo 3 do livro *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* (Aurélien Géron).
+# 📘 Projeto: Hands-On Machine Learning - Capítulo 2
 
-📌 Objetivo  
-Este projeto explora os conceitos fundamentais de **classificação supervisionada**, com foco em classificadores binários e multiclasse, além de técnicas de avaliação e otimização de modelos.
+Repositório com a implementação prática do **Capítulo 2** do livro *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* (Aurélien Géron).
 
-🔍 Conteúdos abordados  
-🔢 Classificação binária com o dataset MNIST  
-📊 Matriz de confusão e principais métricas:  
-  ✔️ Acurácia  
-  🎯 Precisão  
-  📈 Recall  
-  📉 F1-Score  
-📈 Curvas ROC e cálculo da AUC  
-🤖 Estratégias de classificação multiclasse:  
-  🔹 One-vs-Rest (OvR)  
-  🔸 One-vs-One (OvO)  
-🌲 Implementação com RandomForestClassifier  
-🎛️ Ajuste de hiperparâmetros com GridSearchCV  
-🧪 Avaliação cruzada (Cross-Validation)  
-🛠️ Pré-processamento com StandardScaler e train_test_split
+---
 
-📚 Referência  
-Livro: *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* — Aurélien Géron  
-Capítulo: 3 - Classificação
+## 📌 Objetivo
+
+Este projeto cobre todas as etapas essenciais de um fluxo completo de **Machine Learning** aplicado a dados reais, com foco em **boas práticas** e **preparação adequada do pipeline**.
+
+---
+
+## 🔍 Conteúdos abordados
+
+- 📥 Carregamento e exploração de dados  
+- ✂️ Divisão do conjunto em treino e teste (com amostragem estratificada)  
+- ❓ Tratamento de dados faltantes  
+- 🔤 Codificação de variáveis categóricas  
+- 🧠 *Feature Engineering*  
+- 🛠️ Construção de pipelines  
+- 🤖 Treinamento de modelos:  
+  - Regressão Linear  
+  - Árvore de Decisão  
+  - Random Forest  
+- 🧪 Validação cruzada (K-Fold) e ajuste de hiperparâmetros (Grid Search e Randomized Search)  
+- 📊 Avaliação de modelos e análise da importância das variáveis  
+
+---
+
+## 📚 Referência
+
+**Livro**: *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* — Aurélien Géron  
+**Capítulo**: 2 - *End-to-End Machine Learning Project*
